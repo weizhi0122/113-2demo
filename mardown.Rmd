@@ -1,0 +1,40 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Data Analysis with R
+
+## Steps to Analyze Data
+
+1.  Load the necessary libraries
+2.  Import the dataset
+3.  Clean the data
+4.  Perform analysis
+5.  Visualize results
+
+## Sample Data Table
+
+| ID  | Name  | Age | Score |
+|-----|-------|-----|-------|
+| 1   | Alice | 25  | 89    |
+| 2   | Bob   | 30  | 76    |
+| 3   | Carol | 28  | 92    |
+
+## R Code Example
+
+\`\`\`r \# Load necessary library library(tidyverse)
+
+# Create a sample tibble
+
+data \<- tibble( ID = c(1, 2, 3), Name = c("Alice", "Bob", "Carol"), Age
+= c(25, 30, 28), Score = c(89, 76, 92) )
+
+# Print the data
+
+print(data)
+
+# Calculate the average score
+
+mean_score \<- mean(data\$Score) print(mean_score)
