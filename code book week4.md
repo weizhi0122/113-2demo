@@ -1,19 +1,53 @@
-# Codebook for Export Data
+# 臺灣對各市場出口額數據集碼本
 
-## Dataset Description
+## 數據集簡介
 
-This dataset contains information on Taiwan's export amounts to various markets for different industries. Each row represents a specific industry and market combination for a given reference year. The dataset includes variables that capture the export amount, rankings, growth rates, and market shares.
+本數據集記錄了臺灣對不同市場的出口額，並包括市場排名、市場成長率與市場占比等資訊。數據基準年度為 106 年（即西元 2017 年）。此數據可用於分析臺灣在各市場的出口表現與成長趨勢。
 
-## Variable Description
+## 變數名稱與描述
 
-| Variable Name               | Class   | Description                                            |
-|-----------------------------|---------|--------------------------------------------------------|
-| 資料基準年度                | Integer | Reference year of the data (ROC calendar)              |
-| 產業別                      | String  | Industry category                                      |
-| 市場                        | String  | Export market/country                                  |
-| 臺灣對該市場出口額USD千美元 | Integer | Taiwan's export value to the market in USD (thousands) |
-| 臺灣對該市場出口額排名      | Integer | Rank of export value among all markets                 |
-| 市場成長率%                 | Numeric | Growth rate of the market (%)                          |
-| 市場占比%                   | Numeric | Market share percentage (%)                            |
+|     |                             |     |        |     |                                        |     |                  |     |
+|-----|-----------------------------|-----|--------|-----|----------------------------------------|-----|------------------|-----|
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 變數名稱                    |     | 類別   |     | 含義                                   |     | 例子             |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 資料基準年度                |     | 數值型 |     | 該筆資料的基準年份（民國年）           |     | 106              |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 產業別                      |     | 類別型 |     | 出口商品的產業類別                     |     | 鞋、帽及其他飾品 |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 市場                        |     | 類別型 |     | 出口目標市場（國家或地區）             |     | 美國、日本、越南 |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 臺灣對該市場出口額USD千美元 |     | 數值型 |     | 臺灣對該市場的出口額，單位為千美元     |     | 99432            |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 臺灣對該市場出口額排名      |     | 數值型 |     | 臺灣在該市場的出口額排名               |     | 1                |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 市場成長率%                 |     | 數值型 |     | 相較於前一年，此市場的成長率（百分比） |     | 5.61、-6.21      |     |
+|     |                             |     |        |     |                                        |     |                  |     |
+|     | 市場占比%                   |     | 數值型 |     | 該市場在整體出口中的占比（百分比）     |     | 25.63、9.23      |     |
+|     |                             |     |        |     |                                        |     |                  |     |
 
-The dataset allows for analysis of Taiwan’s export trends, market performance, and industry-specific insights.
+## 數據示例
+
+以下是數據集的部分示例：
+
+```         
+資料基準年度,產業別,市場,臺灣對該市場出口額USD千美元,臺灣對該市場出口額排名,市場成長率%,市場占比% 106,鞋、帽及其他飾品,美國,99432,1,5.61,25.63 106,鞋、帽及其他飾品,中國大陸,64080,2,18.08,16.52 106,鞋、帽及其他飾品,日本,35826,3,-6.21,9.23 106,鞋、帽及其他飾品,越南,34804,4,-9.45,8.97 106,鞋、帽及其他飾品,香港,25860,5,1.67,6.67 
+```
+
+## 可能的應用
+
+-   
+
+-   分析臺灣在不同市場的出口趨勢。
+
+-   
+
+-   評估各市場的成長潛力。
+
+-   
+
+-   比較臺灣在各市場的出口競爭力。
+
+-   
+
+此碼本提供了數據的基本描述，使用者可根據需求進一步分析。
