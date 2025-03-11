@@ -1,0 +1,27 @@
+我有一個csv檔，前幾行就像:
+首站抵達地,細分,Year,Number_of_Travelers
+亞洲地區,日本Japan,2002,NA
+亞洲地區,日本Japan,2003,NA
+亞洲地區,日本Japan,2004,NA
+亞洲地區,日本Japan,2005,NA
+亞洲地區,日本Japan,2006,NA
+亞洲地區,日本Japan,2007,NA
+亞洲地區,日本Japan,2008,1309847
+亞洲地區,日本Japan,2009,1113857
+亞洲地區,日本Japan,2010,1377957
+亞洲地區,日本Japan,2011,1136394
+亞洲地區,日本Japan,2012,1560300
+亞洲地區,日本Japan,2013,2346007
+
+gernerate a codebook in markdown syntax which covers:
+a table of variable names, classes, and meanings
+a brief description of the dataset
+
+I use R program and follow tidyverse style, and the R for data science book (https://r4ds.had.co.nz/) closely.
+I have a data frame 'reshaped_travel_data'. Please parse its variables according to the following table imformation:
+| Variable Name       | Data Type       | Description                                                                                                                             |
+|------------|------------|------------------------------------------------|
+| 首站抵達地          | String          | Indicates the first arrival region. In this dataset, it consistently shows "亞洲地區" (Asia region).                                    |
+| 細分                | String          | Provides a detailed categorization of the destination, combining local and English names (e.g., "日本Japan").                           |
+| Year                | Integer         | The year when the travel data was recorded.                                                                                             |
+| Number_of_Travelers | Integer (or NA) | The number of travelers for the given year. Missing values ("NA") indicate that data was not available or not recorded for those years. |
