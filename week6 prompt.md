@@ -1,3 +1,14 @@
+export a data frame to google sheets
+context/input data:
+  -data frame is 'summary_df'
+  -google sheets:
+    -link:https://docs.google.com/spreadsheets/d/1zHGRnbi0vm8hXwG6lGY1TAPiwn-0otBHZrLYXf78MKw/edit?gid=0#gid=0
+    -sheet name:'summary table'
+
+
+
+
+
 meta prompt: You are a R programmer using tidyverse coding style following the book, R for Data Science (https://r4ds.had.co.nz/) closely.
 | Variable Name        | Class       | Meaning                                 | Example              |
 |----------------------|-------------|-----------------------------------------|----------------------|
