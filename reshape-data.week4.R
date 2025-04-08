@@ -20,3 +20,4 @@ summary_travel_data <- parsed_travel_data %>%
   )
 
 print(summary_travel_data)
+glimpse(reshape)
