@@ -1,0 +1,13 @@
+{
+  "description": "Summary of variable: occupation",
+  "operations": "mutate, summarise, table, mean, sd, is.na",
+  "summary": {
+    "levels": {
+      "skilled employee / official": 1113,
+      "unemployed / unskilled": 633,
+      "management / self-employed / highly qualified employee / officer": 254
+    },
+    "n_levels": 3,
+    "missing": 0
+  }
+}

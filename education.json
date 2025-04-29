@@ -1,0 +1,14 @@
+{
+  "description": "Summary of variable: education",
+  "operations": "mutate, summarise, table, mean, sd, is.na",
+  "summary": {
+    "levels": {
+      "university": 291,
+      "high school": 1386,
+      "other / unknown": 287,
+      "graduate school": 36
+    },
+    "n_levels": 4,
+    "missing": 0
+  }
+}

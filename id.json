@@ -1,0 +1,12 @@
+{
+  "description": "Summary of variable: id",
+  "operations": "mutate, summarise, table, mean, sd, is.na",
+  "summary": {
+    "mean": 100001000.5,
+    "sd": 577.4946,
+    "min": 100000001,
+    "max": 100002000,
+    "median": 100001000.5,
+    "missing": 0
+  }
+}

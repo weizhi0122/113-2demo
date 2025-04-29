@@ -1,0 +1,12 @@
+{
+  "description": "Summary of variable: gender",
+  "operations": "mutate, summarise, table, mean, sd, is.na",
+  "summary": {
+    "levels": {
+      "male": 1086,
+      "female": 914
+    },
+    "n_levels": 2,
+    "missing": 0
+  }
+}

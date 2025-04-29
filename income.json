@@ -1,0 +1,12 @@
+{
+  "description": "Summary of variable: income",
+  "operations": "mutate, summarise, table, mean, sd, is.na",
+  "summary": {
+    "mean": 120954.419,
+    "sd": 38108.8247,
+    "min": 35832,
+    "max": 309364,
+    "median": 115548.5,
+    "missing": 0
+  }
+}

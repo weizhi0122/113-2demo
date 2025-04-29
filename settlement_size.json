@@ -1,0 +1,13 @@
+{
+  "description": "Summary of variable: settlement_size",
+  "operations": "mutate, summarise, table, mean, sd, is.na",
+  "summary": {
+    "levels": {
+      "big city": 467,
+      "rural": 989,
+      "small city": 544
+    },
+    "n_levels": 3,
+    "missing": 0
+  }
+}
